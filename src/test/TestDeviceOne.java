@@ -53,11 +53,12 @@ public class TestDeviceOne extends base {
             System.out.println("Device is off");
         }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	  driver.quit();
+
     }
 
     // public void tearDown() throws Exception {
 
-    //  driver.quit();
     // }
 
 

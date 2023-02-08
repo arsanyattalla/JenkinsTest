@@ -57,6 +57,7 @@ public class TestDeviceTwo extends base {
             System.out.println("Device is off");
         }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	  driver.quit();
     }
 
 }
