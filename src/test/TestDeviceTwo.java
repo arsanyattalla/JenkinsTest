@@ -26,8 +26,8 @@ public class TestDeviceTwo extends base {
         WebElement loginBtn = driver.findElement(By.xpath("//button[@class='login-btn-style white-text-color block cursor-pointer text-center']"));
 
 
-        uName.sendKeys("testbeddev3");
-        passWd.sendKeys("Testbeddev3!");
+        uName.sendKeys("testbed-prod-5");
+        passWd.sendKeys("testbed-prod-5");
         loginBtn.click();
         System.out.println("Logged in Successfully");
 

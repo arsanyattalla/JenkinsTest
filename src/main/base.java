@@ -34,7 +34,7 @@ public class base {
         desiredCapabilities.setCapability("noReset", true);
         desiredCapabilities.setCapability("fullReset", false);
 
-        baseUrl = "https://develop.zomepower.com";
+        baseUrl = "https://app.zomepower.com";
         URL remoteUrl = new URL("http://localhost:4723/wd/hub");
            driver = new AndroidDriver(remoteUrl, desiredCapabilities);
            driver.get(baseUrl);
